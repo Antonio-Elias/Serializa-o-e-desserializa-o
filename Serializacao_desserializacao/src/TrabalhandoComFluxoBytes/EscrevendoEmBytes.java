@@ -18,8 +18,7 @@ import java.io.OutputStream;
  */
 public class EscrevendoEmBytes {
     public static void main(String[] args) {
-        File arquivo = new File("C:\\Users\\Antonio\\Documents\\Pessoal\\Faculdade\\Java\\"
-                                + "Projetos\\Projetos estudos\\ArquivosParaLerJava\\Java.bin");
+        File arquivo = new File("arquivo");
         
         try(OutputStream os = new FileOutputStream(arquivo)){
             byte[] b = {50,51,52,53};
