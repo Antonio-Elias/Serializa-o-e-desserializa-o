@@ -28,11 +28,11 @@ public class testeSerializacao {
         ser.add(ob4);
         ser.add(ob5);
         
-        SerializandoObjetos.serializa(ser, "C:\\Users\\Antonio\\Documents\\Pessoal\\Faculdade\\Java\\Projetos\\Projetos estudos\\ArquivosParaLerJava\\java.dat");
+        SerializandoObjetos.serializa(ser, "arquivo");
         
         ArrayList<Object> lista1 = new ArrayList();
         
-        lista1 = SerializandoObjetos.desserializacao("C:\\Users\\Antonio\\Documents\\Pessoal\\Faculdade\\Java\\Projetos\\Projetos estudos\\ArquivosParaLerJava\\java.dat");
+        lista1 = SerializandoObjetos.desserializacao("arquivo");
         for (Object object : lista1) {
             System.out.println("----------------------------------------------------");
             System.out.println("Nome: " + ((ObjetoASerSerializado)object).getNome());
