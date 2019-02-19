@@ -23,7 +23,7 @@ public class SalvandoArquivosTextosEmJava {
     public static void main(String[] args) {
         // Salvando arquivos txt
         
-        File arquivo = new File("C:\\Users\\Antonio\\Documents\\Pessoal\\Faculdade\\Java\\Projetos\\Projetos estudos\\ArquivosParaLerJava\\Java.txt");
+        File arquivo = new File("arquivo");
         
         try (FileWriter fw = new FileWriter(arquivo)){ // usando o try whif resource
             
